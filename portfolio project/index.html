@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Anurag Rastogi" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Anurag Rastogi">Anurag Rastogi</h1>
+                    <p class="title">Web developer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <a href="mailto:anuragrastogi@gmail.com" class="contact-link"><ion-icon name="mail-outline"></ion-icon></a>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:anuragrastogi@gmail.com" class="contact-link">anuragrastogi@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <a href="tel:+919179779673" class="contact-link"><ion-icon name="phone-portrait-outline"></ion-icon></a>
+                            
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+919179779673" class="contact-link">+91 9179779673</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Shahdol, Madhya Pradesh , India</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://linkedin.com/in/anurag-rastogi" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/Anurag-Rastogi" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+
+            <!-- NAVBAR -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- ABOUT -->
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        Hello! I'm Anurag Rastogi, a passionate web developer with a solid foundation in Computer
+                        Science and Information Technology, having graduated with a CGPA of 8.63 from IES, IPS Academy,
+                        Indore. Driven by a curiosity to solve real-world problems, I specialize in building dynamic and
+                        responsive web applications using the MERN stack (MongoDB, Express.js, React, Node.js). I’m
+                        continuously learning and evolving to stay ahead in the ever-changing field of technology.
+                    </p>
+                    <p>
+                        I am committed to creating user-friendly front-end interfaces and robust back-end systems that
+                        provide seamless user experiences. Actively seeking job opportunities where I can contribute my
+                        technical skills, collaborate with like-minded professionals, and grow in a challenging
+                        environment. If you're looking for a dedicated and driven developer, let's connect!
+                    </p>
+                </section>
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What i'm doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/app-development.png" alt="Web-development" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Development</h4>
+
+                                <p class="service-item-text">
+                                    Developing responsive, dynamic websites using the MERN stack (MongoDB, Express.js,
+                                    React, Node.js), with a focus on creating seamless and interactive user experiences.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/cash-flow.png" alt="Trading" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Trading</h4>
+
+                                <p class="service-item-text">
+                                    Engaging in trading activities, analyzing market trends, and making informed
+                                    decisions in stock and other financial markets.
+                                </p>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </section>
+            </article>
+
+
+
+            <!-- RESUME -->
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">B.Tech in Computer Science and Information Technology
+                            </h4>
+
+                            <span>July 2023</span>
+
+                            <p class="timeline-text">
+                                IES IPS ACADEMY, INDORE
+                            </p>
+                            <p class="timeline-text">
+                                CGPA: 8.63
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">High School</h4>
+
+                            <span>March 2019</span>
+
+                            <p class="timeline-text">
+                                Maharishi Vidya Mandir
+                            </p>
+                            <p class="timeline-text">
+                                Percentage: 64.8%
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Matriculation</h4>
+
+                            <span>March 2017</span>
+
+                            <p class="timeline-text">
+                                Good Shepherd Convent Senior Secondary School, Shahdol
+                            </p>
+                            <p class="timeline-text">
+                                Percentage: 74.1%
+                            </p>
+
+                        </li>
+
+                    </ol>
+                    <div class="hero-btn">
+                        <a href="https://drive.google.com/file/d/1hri0ktkoXahgcD89vX0QyLSEFVg9nrhA/view?usp=share_link"
+                            class="btn" target="_blank">Download CV</a>
+                    </div>
+
+                </section>
+
+                <section class="Skills" id="Skills">
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <div class="skill">
+                        <li>
+                            <h3>html</h3>
+                            <span class="bar"> <span class="html"></span>90%</span>
+                        </li>
+                        <li>
+                            <h3>css</h3>
+                            <span class="bar"> <span class="css"></span>85%</span>
+                        </li>
+                        <li>
+                            <h3>javascript</h3>
+                            <span class="bar"> <span class="javascript"> </span>80%</span>
+                        </li>
+                        <li>
+                            <h3>React</h3>
+                            <span class="bar"> <span class="React"> </span>70%</span>
+                        </li>
+                        <li>
+                            <h3>MongoDB</h3>
+                            <span class="bar"> <span class="MongoDB"> </span>75%</span>
+                        </li>
+                        <li>
+                            <h3>NodeJS</h3>
+                            <span class="bar"> <span class="NodeJS"> </span>70%</span>
+                        </li>
+                    </div>
+                </section>
+
+
+            </article>
+
+            <!-- PORTFOLIO -->
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <!-- PORTFOLIO -->
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="project-list">
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web design</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">MetaSpark</h3>
+                                <p class="project-category">Web design</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+            </article>
+
+
+            <!-- CONTACT -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form  action="https://formspree.io/f/xyzzbegz"
+                    method="POST" class="form" >
+
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" >
+
+                            <input type="email" name="email" class="form-input" placeholder="Email address" >
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" ></textarea>
+
+                        <button class="form-btn" type="submit" >
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+
+                    </form>
+
+                </section>
+
+            </article>
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+</body>
+
+</html>
